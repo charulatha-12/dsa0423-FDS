@@ -1,0 +1,15 @@
+import matplotlib.pyplot as plt
+
+# Data
+months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+rainfall = [10,15,20,30,50,120,200,180,140,90,40,20]
+
+# Scatter plot
+plt.scatter(months, rainfall)
+
+plt.title("Monthly Rainfall Data")
+plt.xlabel("Months")
+plt.ylabel("Rainfall")
+
+plt.show()
+
